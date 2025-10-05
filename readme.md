@@ -1,4 +1,4 @@
-# 📄 Gerador de Currículos - Sistema Web
+📄 Gerador de Currículos - Sistema Web
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -8,11 +8,11 @@
 
 Sistema completo para criação e gerenciamento de currículos profissionais desenvolvido como projeto acadêmico para a disciplina **Fundamentos de Programação para Internet** da UNIPAR EAD.
 
-## 📋 Sobre o Projeto
+📋 Sobre o Projeto
 
 Este sistema permite que usuários criem currículos profissionais de forma rápida e intuitiva através de uma interface web moderna e responsiva. O sistema oferece funcionalidades de inclusão dinâmica de campos, validação de dados e exportação em PDF.
 
-## ✨ Funcionalidades
+✨ Funcionalidades
 
 - ✅ **Cadastro de Dados Pessoais**: Nome, contato, endereço, data de nascimento com cálculo automático de idade
 - ✅ **Objetivo Profissional**: Campo para definir objetivos de carreira
@@ -24,15 +24,15 @@ Este sistema permite que usuários criem currículos profissionais de forma ráp
 - ✅ **Listagem de Currículos**: Visualize e gerencie todos os currículos criados
 - ✅ **Interface Responsiva**: Funciona perfeitamente em desktop, tablet e mobile
 
-## 🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
 
-### Backend
+Backend
 - **PHP 7.4+**: Linguagem de programação server-side
 - **MySQL**: Sistema de gerenciamento de banco de dados
 - **mPDF**: Biblioteca para geração de arquivos PDF
 - **PDO**: Interface para acesso ao banco de dados
 
-### Frontend
+Frontend
 - **HTML5**: Estruturação das páginas
 - **CSS3**: Estilização customizada
 - **Bootstrap 5.3**: Framework CSS responsivo
@@ -41,7 +41,7 @@ Este sistema permite que usuários criem currículos profissionais de forma ráp
 - **Font Awesome 6.4**: Ícones
 - **jQuery Mask Plugin**: Máscaras para inputs
 
-## 📁 Estrutura do Projeto
+📁 Estrutura do Projeto
 
 ```
 curriculo-generator/
@@ -78,28 +78,28 @@ curriculo-generator/
 └── README.md                     # Este arquivo
 ```
 
-## 🚀 Instalação e Configuração
+🚀 Instalação e Configuração
 
-### Pré-requisitos
+Pré-requisitos
 
 - XAMPP (ou qualquer servidor com PHP 7.4+ e MySQL)
 - Composer (gerenciador de dependências PHP)
 - Navegador web moderno
 
-### Passo 1: Clonar o Repositório
+Passo 1: Clonar o Repositório
 
 ```bash
 git clone https://github.com/ViniciusCostaGrillo/gerador_curriculos
 cd curriculo-generator
 ```
 
-### Passo 2: Instalar Dependências
+Passo 2: Instalar Dependências
 
 ```bash
 composer install
 ```
 
-### Passo 3: Configurar o Banco de Dados
+Passo 3: Configurar o Banco de Dados
 
 1. Inicie o XAMPP (Apache e MySQL)
 2. Acesse o phpMyAdmin (http://localhost/phpmyadmin)
@@ -112,7 +112,7 @@ Ou via linha de comando:
 mysql -u root -p < schema.sql
 ```
 
-### Passo 4: Configurar Conexão
+Passo 4: Configurar Conexão
 
 Edite o arquivo `config/database.php` com suas credenciais:
 
@@ -122,8 +122,7 @@ private $db_name = "curriculo_generator";
 private $username = "root";
 private $password = ""; // Sua senha do MySQL
 ```
-
-### Passo 5: Acessar o Sistema
+Passo 5: Acessar o Sistema
 
 Coloque o projeto na pasta `htdocs` do XAMPP e acesse:
 
@@ -131,9 +130,9 @@ Coloque o projeto na pasta `htdocs` do XAMPP e acesse:
 http://localhost/curriculo-generator/
 ```
 
-## 💡 Como Usar
+💡 Como Usar
 
-### Criar um Novo Currículo
+Criar um Novo Currículo
 
 1. Acesse a página inicial
 2. Clique em "Criar Novo Currículo"
@@ -144,15 +143,15 @@ http://localhost/curriculo-generator/
 7. Clique em "Salvar Currículo"
 8. Escolha se deseja baixar o PDF imediatamente
 
-### Visualizar Currículos
+Visualizar Currículos
 
 1. Acesse "Meus Currículos" no menu
 2. Clique em "Visualizar" para ver os detalhes
 3. Clique em "Baixar PDF" para exportar
 
-## 🎯 Funcionalidades Técnicas
+🎯 Funcionalidades Técnicas
 
-### Campos Dinâmicos
+Campos Dinâmicos
 
 O sistema utiliza jQuery para adicionar e remover campos dinamicamente:
 
@@ -160,7 +159,7 @@ O sistema utiliza jQuery para adicionar e remover campos dinamicamente:
 $('#addExperiencia').on('click', adicionarExperiencia);
 ```
 
-### Cálculo Automático de Idade
+Cálculo Automático de Idade
 
 JavaScript calcula a idade automaticamente ao selecionar a data de nascimento:
 
@@ -168,7 +167,7 @@ JavaScript calcula a idade automaticamente ao selecionar a data de nascimento:
 $('#data_nascimento').on('change', calcularIdade);
 ```
 
-### Máscaras de Input
+Máscaras de Input
 
 Utiliza jQuery Mask Plugin para formatar telefone e CEP:
 
@@ -177,13 +176,13 @@ $('#telefone').mask('(00) 00000-0000');
 $('#cep').mask('00000-000');
 ```
 
-### Validação de Dados
+Validação de Dados
 
 - Validação client-side com HTML5 e JavaScript
 - Validação server-side com PHP
 - Sanitização de dados antes de inserir no banco
 
-### Transações de Banco de Dados
+Transações de Banco de Dados
 
 Utiliza transações PDO para garantir integridade:
 
@@ -197,7 +196,7 @@ try {
 }
 ```
 
-## 🔒 Segurança
+🔒 Segurança
 
 - ✅ Prepared Statements (PDO) para prevenir SQL Injection
 - ✅ Sanitização de inputs com `htmlspecialchars()` e `strip_tags()`
@@ -205,7 +204,7 @@ try {
 - ✅ Headers de segurança configurados
 - ✅ Tratamento de erros adequado
 
-## 📱 Responsividade
+📱 Responsividade
 
 O sistema é totalmente responsivo, adaptando-se a diferentes tamanhos de tela:
 
@@ -213,7 +212,7 @@ O sistema é totalmente responsivo, adaptando-se a diferentes tamanhos de tela:
 - 📱 Tablet: 576px - 768px
 - 💻 Desktop: > 768px
 
-## 🎨 Design
+🎨 Design
 
 O design segue princípios modernos de UX/UI:
 
@@ -223,9 +222,9 @@ O design segue princípios modernos de UX/UI:
 - Animações sutis para melhor experiência
 - Paleta de cores profissional
 
-## 📦 Dependências
+📦 Dependências
 
-### PHP (via Composer)
+PHP (via Composer)
 
 ```json
 {
@@ -235,56 +234,56 @@ O design segue princípios modernos de UX/UI:
 }
 ```
 
-### JavaScript (via CDN)
+JavaScript (via CDN)
 
 - Bootstrap 5.3.0
 - jQuery 3.7.0
 - jQuery Mask Plugin 1.14.16
 - Font Awesome 6.4.0
 
-## 🐛 Troubleshooting
+🐛 Troubleshooting
 
-### Erro de Conexão com Banco de Dados
+Erro de Conexão com Banco de Dados
 
 Verifique se:
 - MySQL está rodando no XAMPP
 - As credenciais em `database.php` estão corretas
 - O banco `curriculo_generator` foi criado
 
-### PDF não está sendo gerado
+PDF não está sendo gerado
 
 Certifique-se de que:
 - A biblioteca mPDF foi instalada via Composer
 - A pasta `vendor` existe no projeto
 - O PHP tem permissões de escrita
 
-### Máscaras não funcionam
+Máscaras não funcionam
 
 Verifique se:
 - jQuery foi carregado antes do jQuery Mask Plugin
 - Os scripts estão na ordem correta no HTML
 
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 **Projeto Acadêmico - UNIPAR EAD**
 - Disciplina: Fundamentos de Programação para Internet
 - Professor: Carlos Eduardo Simões Pelegrin
 
-## 📄 Licença
+📄 Licença
 
 Este projeto foi desenvolvido para fins acadêmicos e educacionais.
 
-## 🤝 Contribuições
+🤝 Contribuições
 
 Este é um projeto acadêmico, mas sugestões e melhorias são bem-vindas!
 
-## 📞 Suporte
+📞 Suporte
 
 Para dúvidas ou problemas, consulte a documentação ou entre em contato com o tutor da disciplina.
 
----
 
-⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet   g e r a d o r _ c u r r i c u l o 
 
+⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet
 
  
+
