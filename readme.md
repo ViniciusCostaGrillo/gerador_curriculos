@@ -89,7 +89,7 @@ curriculo-generator/
 ### Passo 1: Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/curriculo-generator.git
+git clone https://github.com/ViniciusCostaGrillo/gerador_curriculos
 cd curriculo-generator
 ```
 
@@ -284,4 +284,8 @@ Para dúvidas ou problemas, consulte a documentação ou entre em contato com o 
 
 ---
 
-⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet
+⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet#   g e r a d o r _ c u r r i c u l o 
+ 
+ #   g e r a d o r _ c u r r i c u l o 
+ 
+ 

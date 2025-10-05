@@ -53,7 +53,7 @@ Deve exibir algo como: `Composer version 2.x.x`
 
 ```bash
 cd C:\xampp\htdocs
-git clone https://github.com/seu-usuario/curriculo-generator.git
+git clone https://github.com/ViniciusCostaGrillo/gerador_curriculos
 cd curriculo-generator
 ```
 
