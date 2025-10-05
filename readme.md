@@ -285,5 +285,4 @@ Para dúvidas ou problemas, consulte a documentação ou entre em contato com o 
 
 ⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet
 
- 
-
+⭐ Desenvolvido com dedicação para a disciplina de Fundamentos de Programação para Internet
